@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,slnt,wdth,wght,XOPQ,XTRA,YOPQ@8..144,-10,50,100..1000,140,400,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Shay Goft</div>
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" style="margin-left: 20px; background-color: var(--accent-color); color: var(--button-text-color); border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer;">Toggle Theme</button>
+        </nav>
+    </header>
+
+    <section id="home">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://motion-graphics.stream/videos/abstract-purple-plexus-background.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="hero">
+            <h1>Shay Goft - Game Designer</h1>
+            <p>Crafting immersive digital worlds</p>
+            <a href="#projects" class="cta-button">View My Projects</a>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <a href="swing-king.html" class="project-card">
+                <img src="images/SwingKing.png" alt="Project 1">
+                <h3>Swing King</h3>
+                <p>GMTK 2025 Game Jam.</p>
+            </a>
+            <a href="project-2.html" class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>Short description of Project 2.</p>
+            </a>
+            <a href="project-3.html" class="project-card">
+                <img src="https://via.placeholder.com/300" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Short description of Project 3.</p>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="https://via.placeholder.com/300" alt="My Headshot">
+            </div>
+            <div class="about-text">
+                <h3>My Journey</h3>
+                <p>From a young age, I was captivated by the power of video games to tell stories and create unforgettable experiences. This passion led me down the path of game development, where I discovered a love for bringing ideas to life through code and design. My journey has been one of constant learning and a relentless pursuit of creating immersive digital worlds that resonate with players.</p>
+                <h3>My Philosophy</h3>
+                <p>I believe that the best games are born from a blend of technical excellence and creative vision. My approach is to build games that are not only fun to play but also emotionally impactful and thoughtfully designed. I'm driven by the challenge of solving complex problems and the joy of seeing a project come together.</p>
+                <h3>Key Skills</h3>
+                <ul class="skills-list">
+                    <li>Unity3D</li>
+                    <li>Unity2D</li>
+                    <li>C#</li>
+                    <li>Game Design</li>
+                    <li>Level Design</li>
+                    <li>AI Tools</li>
+                </ul>
+                <h3>Fun Facts</h3>
+                <ul class="fun-facts-list">
+                    <li>My favorite game genre is RPGs.</li>
+                    <li>I'm an avid coffee drinker.</li>
+                    <li>In my free time, I enjoy hiking and photography.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Or find me on</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shay-goft/" target="_blank">LinkedIn</a>
+                    <a href="https://goftigames.itch.io/" target="_blank">Itch.io</a>
+                    <a href="https://github.com/Goftis" target="_blank">GitHub</a>
+                    <a href="https://bsky.app/profile/goftis.bsky.social" target="_blank">BlueSky</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Shay Goft. All rights reserved.</p>
+            <div class="footer-social-links">
+                <a href="https://www.linkedin.com/in/shay-goft/" target="_blank">LinkedIn</a>
+                <a href="https://goftigames.itch.io/" target="_blank">Itch.io</a>
+                <a href="https://github.com/Goftis" target="_blank">GitHub</a>
+                <a href="https://bsky.app/profile/goftis.bsky.social" target="_blank">BlueSky</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

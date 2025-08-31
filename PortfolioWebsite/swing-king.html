@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Title - Game Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project-style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html" style="text-decoration: none;">Back to main page</a></div>
+            <button id="theme-toggle" style="margin-left: 20px; background-color: #00ffdd; color: #121212; border: none; padding: 0.5rem 1rem; border-radius: 5px; cursor: pointer;">Toggle Theme</button>
+        </nav>
+    </header>
+
+    <section class="project-header">
+        <img src="https://via.placeholder.com/1200x600" alt="Project Header Image">
+        <h1>Swing King</h1>
+    </section>
+
+    <section class="project-details">
+        <div class="project-overview">
+            <h2>Project Overview</h2>
+            <p>A GMTK 2025 Game Jam entry, under the theme "Loop".<br> It's a game about a monkey escaping the forest fires while swinging in loops towards safety.</p>
+        </div>
+
+        <div class="my-role">
+            <h2>My Role</h2>
+            <p>I managed the project's scope and ambitions, whether in deadlines or in implemented mechanics and systems.
+                <br> Yoav and I both built the code for the game, I worked specifically on the player's movement and attached systems.
+                <br> Designed the level and the difficulty curve while trying to balance it with the player's enjoyment.
+                <br> sss
+                
+
+            </p>
+        </div>
+
+        <div class="technologies-used">
+            <h2>Technologies Used</h2>
+            <ul>
+                <li>Unity</li>
+                <li>C#</li>
+                <li>Miro</li>
+                <li>Unity Version Control / Git</li>
+            </ul>
+        </div>
+
+        <div class="features">
+            <h2>Features</h2>
+            <ul>
+                <li>Feature 1: Describe a key feature of the game.</li>
+                <li>Feature 2: Describe another key feature.</li>
+                <li>Feature 3: And another one.</li>
+            </ul>
+        </div>
+
+        <div class="project-links">
+            <a href="https://yoav-tc.itch.io/swing-king" class="cta-button">Play Demo</a>
+        </div>
+    </section>
+
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('light-mode');
+    });
+</script>
+</body>
+</html>
